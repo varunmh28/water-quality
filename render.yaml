@@ -1,5 +1,6 @@
 services:
   - name: web
-    env: python=3.10.9  # Specify the Python version here
+    env: 
+    python=3.10.9  # Specify the Python version here
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:app
