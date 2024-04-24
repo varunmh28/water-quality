@@ -1,3 +1,4 @@
+pip>=21.0.1
 flask
 numpy
 scikit-learn==0.24.2
